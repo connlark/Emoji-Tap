@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3A225F81DDBE7C60051B537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A225F71DDBE7C60051B537 /* AppDelegate.swift */; };
+		B3A225FA1DDBE7C60051B537 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B3A225F91DDBE7C60051B537 /* GameScene.sks */; };
+		B3A225FC1DDBE7C60051B537 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B3A225FB1DDBE7C60051B537 /* Actions.sks */; };
+		B3A225FE1DDBE7C60051B537 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A225FD1DDBE7C60051B537 /* GameScene.swift */; };
+		B3A226001DDBE7C60051B537 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A225FF1DDBE7C60051B537 /* GameViewController.swift */; };
+		B3A226031DDBE7C60051B537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A226011DDBE7C60051B537 /* Main.storyboard */; };
+		B3A226051DDBE7C60051B537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A226041DDBE7C60051B537 /* Assets.xcassets */; };
+		B3A226081DDBE7C60051B537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A226061DDBE7C60051B537 /* LaunchScreen.storyboard */; };
+		B3A226131DDBE7C60051B537 /* Emoji_TapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A226121DDBE7C60051B537 /* Emoji_TapTests.swift */; };
+		B3A2261E1DDBE7C60051B537 /* Emoji_TapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A2261D1DDBE7C60051B537 /* Emoji_TapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3A2260F1DDBE7C60051B537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A225EC1DDBE7C60051B537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A225F31DDBE7C60051B537;
+			remoteInfo = "Emoji Tap";
+		};
+		B3A2261A1DDBE7C60051B537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3A225EC1DDBE7C60051B537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3A225F31DDBE7C60051B537;
+			remoteInfo = "Emoji Tap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3A225F41DDBE7C60051B537 /* Emoji Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A225F71DDBE7C60051B537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3A225F91DDBE7C60051B537 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B3A225FB1DDBE7C60051B537 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B3A225FD1DDBE7C60051B537 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		B3A225FF1DDBE7C60051B537 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B3A226021DDBE7C60051B537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3A226041DDBE7C60051B537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A226071DDBE7C60051B537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3A226091DDBE7C60051B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A2260E1DDBE7C60051B537 /* Emoji TapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji TapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A226121DDBE7C60051B537 /* Emoji_TapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_TapTests.swift; sourceTree = "<group>"; };
+		B3A226141DDBE7C60051B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A226191DDBE7C60051B537 /* Emoji TapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji TapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A2261D1DDBE7C60051B537 /* Emoji_TapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_TapUITests.swift; sourceTree = "<group>"; };
+		B3A2261F1DDBE7C60051B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A225F11DDBE7C60051B537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A2260B1DDBE7C60051B537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A226161DDBE7C60051B537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3A225EB1DDBE7C60051B537 = {
+			isa = PBXGroup;
+			children = (
+				B3A225F61DDBE7C60051B537 /* Emoji Tap */,
+				B3A226111DDBE7C60051B537 /* Emoji TapTests */,
+				B3A2261C1DDBE7C60051B537 /* Emoji TapUITests */,
+				B3A225F51DDBE7C60051B537 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A225F51DDBE7C60051B537 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A225F41DDBE7C60051B537 /* Emoji Tap.app */,
+				B3A2260E1DDBE7C60051B537 /* Emoji TapTests.xctest */,
+				B3A226191DDBE7C60051B537 /* Emoji TapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A225F61DDBE7C60051B537 /* Emoji Tap */ = {
+			isa = PBXGroup;
+			children = (
+				B3A225F71DDBE7C60051B537 /* AppDelegate.swift */,
+				B3A225F91DDBE7C60051B537 /* GameScene.sks */,
+				B3A225FB1DDBE7C60051B537 /* Actions.sks */,
+				B3A225FD1DDBE7C60051B537 /* GameScene.swift */,
+				B3A225FF1DDBE7C60051B537 /* GameViewController.swift */,
+				B3A226011DDBE7C60051B537 /* Main.storyboard */,
+				B3A226041DDBE7C60051B537 /* Assets.xcassets */,
+				B3A226061DDBE7C60051B537 /* LaunchScreen.storyboard */,
+				B3A226091DDBE7C60051B537 /* Info.plist */,
+			);
+			path = "Emoji Tap";
+			sourceTree = "<group>";
+		};
+		B3A226111DDBE7C60051B537 /* Emoji TapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3A226121DDBE7C60051B537 /* Emoji_TapTests.swift */,
+				B3A226141DDBE7C60051B537 /* Info.plist */,
+			);
+			path = "Emoji TapTests";
+			sourceTree = "<group>";
+		};
+		B3A2261C1DDBE7C60051B537 /* Emoji TapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3A2261D1DDBE7C60051B537 /* Emoji_TapUITests.swift */,
+				B3A2261F1DDBE7C60051B537 /* Info.plist */,
+			);
+			path = "Emoji TapUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A225F31DDBE7C60051B537 /* Emoji Tap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A226221DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji Tap" */;
+			buildPhases = (
+				B3A225F01DDBE7C60051B537 /* Sources */,
+				B3A225F11DDBE7C60051B537 /* Frameworks */,
+				B3A225F21DDBE7C60051B537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji Tap";
+			productName = "Emoji Tap";
+			productReference = B3A225F41DDBE7C60051B537 /* Emoji Tap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3A2260D1DDBE7C60051B537 /* Emoji TapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A226251DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji TapTests" */;
+			buildPhases = (
+				B3A2260A1DDBE7C60051B537 /* Sources */,
+				B3A2260B1DDBE7C60051B537 /* Frameworks */,
+				B3A2260C1DDBE7C60051B537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A226101DDBE7C60051B537 /* PBXTargetDependency */,
+			);
+			name = "Emoji TapTests";
+			productName = "Emoji TapTests";
+			productReference = B3A2260E1DDBE7C60051B537 /* Emoji TapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3A226181DDBE7C60051B537 /* Emoji TapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A226281DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji TapUITests" */;
+			buildPhases = (
+				B3A226151DDBE7C60051B537 /* Sources */,
+				B3A226161DDBE7C60051B537 /* Frameworks */,
+				B3A226171DDBE7C60051B537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3A2261B1DDBE7C60051B537 /* PBXTargetDependency */,
+			);
+			name = "Emoji TapUITests";
+			productName = "Emoji TapUITests";
+			productReference = B3A226191DDBE7C60051B537 /* Emoji TapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A225EC1DDBE7C60051B537 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Connor Larkin";
+				TargetAttributes = {
+					B3A225F31DDBE7C60051B537 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 24MA2Z46AJ;
+						ProvisioningStyle = Automatic;
+					};
+					B3A2260D1DDBE7C60051B537 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 24MA2Z46AJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3A225F31DDBE7C60051B537;
+					};
+					B3A226181DDBE7C60051B537 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 24MA2Z46AJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3A225F31DDBE7C60051B537;
+					};
+				};
+			};
+			buildConfigurationList = B3A225EF1DDBE7C60051B537 /* Build configuration list for PBXProject "Emoji Tap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A225EB1DDBE7C60051B537;
+			productRefGroup = B3A225F51DDBE7C60051B537 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A225F31DDBE7C60051B537 /* Emoji Tap */,
+				B3A2260D1DDBE7C60051B537 /* Emoji TapTests */,
+				B3A226181DDBE7C60051B537 /* Emoji TapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A225F21DDBE7C60051B537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A226031DDBE7C60051B537 /* Main.storyboard in Resources */,
+				B3A225FA1DDBE7C60051B537 /* GameScene.sks in Resources */,
+				B3A226051DDBE7C60051B537 /* Assets.xcassets in Resources */,
+				B3A226081DDBE7C60051B537 /* LaunchScreen.storyboard in Resources */,
+				B3A225FC1DDBE7C60051B537 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A2260C1DDBE7C60051B537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A226171DDBE7C60051B537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A225F01DDBE7C60051B537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A225FE1DDBE7C60051B537 /* GameScene.swift in Sources */,
+				B3A226001DDBE7C60051B537 /* GameViewController.swift in Sources */,
+				B3A225F81DDBE7C60051B537 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A2260A1DDBE7C60051B537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A226131DDBE7C60051B537 /* Emoji_TapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3A226151DDBE7C60051B537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A2261E1DDBE7C60051B537 /* Emoji_TapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3A226101DDBE7C60051B537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A225F31DDBE7C60051B537 /* Emoji Tap */;
+			targetProxy = B3A2260F1DDBE7C60051B537 /* PBXContainerItemProxy */;
+		};
+		B3A2261B1DDBE7C60051B537 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3A225F31DDBE7C60051B537 /* Emoji Tap */;
+			targetProxy = B3A2261A1DDBE7C60051B537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3A226011DDBE7C60051B537 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A226021DDBE7C60051B537 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3A226061DDBE7C60051B537 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A226071DDBE7C60051B537 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3A226201DDBE7C60051B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A226211DDBE7C60051B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A226231DDBE7C60051B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24MA2Z46AJ;
+				INFOPLIST_FILE = "Emoji Tap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connorlarkin.Emoji-Tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3A226241DDBE7C60051B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24MA2Z46AJ;
+				INFOPLIST_FILE = "Emoji Tap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connorlarkin.Emoji-Tap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3A226261DDBE7C60051B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24MA2Z46AJ;
+				INFOPLIST_FILE = "Emoji TapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connorlarkin.Emoji-TapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji Tap.app/Emoji Tap";
+			};
+			name = Debug;
+		};
+		B3A226271DDBE7C60051B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24MA2Z46AJ;
+				INFOPLIST_FILE = "Emoji TapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connorlarkin.Emoji-TapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji Tap.app/Emoji Tap";
+			};
+			name = Release;
+		};
+		B3A226291DDBE7C60051B537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 24MA2Z46AJ;
+				INFOPLIST_FILE = "Emoji TapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connorlarkin.Emoji-TapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji Tap";
+			};
+			name = Debug;
+		};
+		B3A2262A1DDBE7C60051B537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 24MA2Z46AJ;
+				INFOPLIST_FILE = "Emoji TapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "connorlarkin.Emoji-TapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji Tap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A225EF1DDBE7C60051B537 /* Build configuration list for PBXProject "Emoji Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A226201DDBE7C60051B537 /* Debug */,
+				B3A226211DDBE7C60051B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A226221DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji Tap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A226231DDBE7C60051B537 /* Debug */,
+				B3A226241DDBE7C60051B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3A226251DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji TapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A226261DDBE7C60051B537 /* Debug */,
+				B3A226271DDBE7C60051B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3A226281DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji TapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A226291DDBE7C60051B537 /* Debug */,
+				B3A2262A1DDBE7C60051B537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A225EC1DDBE7C60051B537 /* Project object */;
+}
