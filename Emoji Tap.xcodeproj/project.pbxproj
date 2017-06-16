@@ -7,16 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3A225F81DDBE7C60051B537 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A225F71DDBE7C60051B537 /* AppDelegate.swift */; };
-		B3A225FA1DDBE7C60051B537 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B3A225F91DDBE7C60051B537 /* GameScene.sks */; };
+		B33260D71DDC040A00CB136B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B33260D61DDC040A00CB136B /* Podfile */; };
+		B33CA88E1DDC096600BA6BBC /* fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = B33CA88C1DDC096600BA6BBC /* fire.sks */; };
+		B33CA88F1DDC096600BA6BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33CA88D1DDC096600BA6BBC /* Assets.xcassets */; };
+		B37764901DDBE8A0004CC064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377648F1DDBE8A0004CC064 /* AppDelegate.swift */; };
+		B37764921DDBE8B1004CC064 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37764911DDBE8B1004CC064 /* GameViewController.swift */; };
+		B37764941DDBE8F6004CC064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37764931DDBE8F6004CC064 /* Assets.xcassets */; };
+		B37764961DDBE95F004CC064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37764951DDBE95F004CC064 /* LaunchScreen.storyboard */; };
+		B37764981DDBE967004CC064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37764971DDBE967004CC064 /* Main.storyboard */; };
+		B387ABAC1DFDF63E0083FF9A /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387ABAB1DFDF63E0083FF9A /* BaseScene.swift */; };
+		B387ABAE1DFDF6A30083FF9A /* WelcomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387ABAD1DFDF6A30083FF9A /* WelcomeScene.swift */; };
+		B387ABB01DFE22CC0083FF9A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387ABAF1DFE22CC0083FF9A /* MenuViewController.swift */; };
+		B39D120A1DF53700005FE177 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39D12091DF53700005FE177 /* File.swift */; };
+		B3A004D71DF9F9D100D53168 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A004D61DF9F9D100D53168 /* MenuScene.swift */; };
+		B3A225FA1DDBE7C60051B537 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B3A225F91DDBE7C60051B537 /* MenuScene.sks */; };
 		B3A225FC1DDBE7C60051B537 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B3A225FB1DDBE7C60051B537 /* Actions.sks */; };
 		B3A225FE1DDBE7C60051B537 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A225FD1DDBE7C60051B537 /* GameScene.swift */; };
-		B3A226001DDBE7C60051B537 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A225FF1DDBE7C60051B537 /* GameViewController.swift */; };
-		B3A226031DDBE7C60051B537 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A226011DDBE7C60051B537 /* Main.storyboard */; };
-		B3A226051DDBE7C60051B537 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A226041DDBE7C60051B537 /* Assets.xcassets */; };
-		B3A226081DDBE7C60051B537 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A226061DDBE7C60051B537 /* LaunchScreen.storyboard */; };
 		B3A226131DDBE7C60051B537 /* Emoji_TapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A226121DDBE7C60051B537 /* Emoji_TapTests.swift */; };
 		B3A2261E1DDBE7C60051B537 /* Emoji_TapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A2261D1DDBE7C60051B537 /* Emoji_TapUITests.swift */; };
+		B3F1ADA91DDBEA390002DF0F /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1ADA21DDBEA390002DF0F /* Labels.swift */; };
+		B3F1ADAA1DDBEA390002DF0F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1ADA31DDBEA390002DF0F /* SettingsViewController.swift */; };
+		B3F1ADAB1DDBEA390002DF0F /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1ADA41DDBEA390002DF0F /* Shapes.swift */; };
+		B3F1ADAC1DDBEA390002DF0F /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1ADA51DDBEA390002DF0F /* TransitionManager.swift */; };
+		B3F1ADAD1DDBEA390002DF0F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F1ADA61DDBEA390002DF0F /* Extensions.swift */; };
+		BC78E5227F10A2A919F21EBF /* libPods-Emoji Tap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E72B4B6DFD09C2B27788D3D1 /* libPods-Emoji Tap.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,15 +51,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48050786A067BF3A5BD791EF /* Pods-Emoji Tap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji Tap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emoji Tap/Pods-Emoji Tap.release.xcconfig"; sourceTree = "<group>"; };
+		9B54B6E3BCEE2DE3274DCFCF /* Pods-Emoji Tap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emoji Tap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emoji Tap/Pods-Emoji Tap.debug.xcconfig"; sourceTree = "<group>"; };
+		B33260D61DDC040A00CB136B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B33CA88C1DDC096600BA6BBC /* fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fire.sks; sourceTree = "<group>"; };
+		B33CA88D1DDC096600BA6BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Emoji Tap/Assets.xcassets"; sourceTree = "<group>"; };
+		B377648F1DDBE8A0004CC064 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../SwiftFiles/AppDelegate.swift; sourceTree = "<group>"; };
+		B37764911DDBE8B1004CC064 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../SwiftFiles/GameViewController.swift; sourceTree = "<group>"; };
+		B37764931DDBE8F6004CC064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		B37764951DDBE95F004CC064 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B37764971DDBE967004CC064 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		B387ABAB1DFDF63E0083FF9A /* BaseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScene.swift; sourceTree = "<group>"; };
+		B387ABAD1DFDF6A30083FF9A /* WelcomeScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScene.swift; sourceTree = "<group>"; };
+		B387ABAF1DFE22CC0083FF9A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B39D12091DF53700005FE177 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = SwiftFiles/File.swift; sourceTree = SOURCE_ROOT; };
+		B3A004D61DF9F9D100D53168 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		B3A225F41DDBE7C60051B537 /* Emoji Tap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji Tap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3A225F71DDBE7C60051B537 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3A225F91DDBE7C60051B537 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		B3A225F91DDBE7C60051B537 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
 		B3A225FB1DDBE7C60051B537 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		B3A225FD1DDBE7C60051B537 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		B3A225FF1DDBE7C60051B537 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		B3A226021DDBE7C60051B537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3A226041DDBE7C60051B537 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3A226071DDBE7C60051B537 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3A225FD1DDBE7C60051B537 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../SwiftFiles/GameScene.swift; sourceTree = "<group>"; };
 		B3A226091DDBE7C60051B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A2260E1DDBE7C60051B537 /* Emoji TapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji TapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A226121DDBE7C60051B537 /* Emoji_TapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_TapTests.swift; sourceTree = "<group>"; };
@@ -53,6 +77,12 @@
 		B3A226191DDBE7C60051B537 /* Emoji TapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji TapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A2261D1DDBE7C60051B537 /* Emoji_TapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_TapUITests.swift; sourceTree = "<group>"; };
 		B3A2261F1DDBE7C60051B537 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F1ADA21DDBEA390002DF0F /* Labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Labels.swift; path = ../SwiftFiles/Labels.swift; sourceTree = "<group>"; };
+		B3F1ADA31DDBEA390002DF0F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SwiftFiles/SettingsViewController.swift; sourceTree = "<group>"; };
+		B3F1ADA41DDBEA390002DF0F /* Shapes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shapes.swift; path = ../SwiftFiles/Shapes.swift; sourceTree = "<group>"; };
+		B3F1ADA51DDBEA390002DF0F /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = ../SwiftFiles/TransitionManager.swift; sourceTree = "<group>"; };
+		B3F1ADA61DDBEA390002DF0F /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../SwiftFiles/Extensions.swift; sourceTree = "<group>"; };
+		E72B4B6DFD09C2B27788D3D1 /* libPods-Emoji Tap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Emoji Tap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC78E5227F10A2A919F21EBF /* libPods-Emoji Tap.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +111,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FBF3CB36391799838580A73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E72B4B6DFD09C2B27788D3D1 /* libPods-Emoji Tap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B378EE251DDBE9E600381E25 /* Gameplay Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F1ADA41DDBEA390002DF0F /* Shapes.swift */,
+				B3F1ADA61DDBEA390002DF0F /* Extensions.swift */,
+				B3F1ADA21DDBEA390002DF0F /* Labels.swift */,
+				B39D12091DF53700005FE177 /* File.swift */,
+			);
+			name = "Gameplay Swift Files";
+			sourceTree = "<group>";
+		};
+		B387ABAA1DFDF5FF0083FF9A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B3A225F91DDBE7C60051B537 /* MenuScene.sks */,
+				B387ABAB1DFDF63E0083FF9A /* BaseScene.swift */,
+				B387ABAD1DFDF6A30083FF9A /* WelcomeScene.swift */,
+				B3A004D61DF9F9D100D53168 /* MenuScene.swift */,
+				B3A225FD1DDBE7C60051B537 /* GameScene.swift */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
 		B3A225EB1DDBE7C60051B537 = {
 			isa = PBXGroup;
 			children = (
+				B33CA88D1DDC096600BA6BBC /* Assets.xcassets */,
+				B33260D61DDC040A00CB136B /* Podfile */,
 				B3A225F61DDBE7C60051B537 /* Emoji Tap */,
 				B3A226111DDBE7C60051B537 /* Emoji TapTests */,
 				B3A2261C1DDBE7C60051B537 /* Emoji TapUITests */,
 				B3A225F51DDBE7C60051B537 /* Products */,
+				C763168D445221EA72D9B498 /* Pods */,
+				0FBF3CB36391799838580A73 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,14 +169,14 @@
 		B3A225F61DDBE7C60051B537 /* Emoji Tap */ = {
 			isa = PBXGroup;
 			children = (
-				B3A225F71DDBE7C60051B537 /* AppDelegate.swift */,
-				B3A225F91DDBE7C60051B537 /* GameScene.sks */,
+				B387ABAA1DFDF5FF0083FF9A /* Scenes */,
+				B3F1ADB01DDBEA430002DF0F /* ViewControllers */,
+				B377648F1DDBE8A0004CC064 /* AppDelegate.swift */,
+				B378EE251DDBE9E600381E25 /* Gameplay Swift Files */,
+				B37764951DDBE95F004CC064 /* LaunchScreen.storyboard */,
+				B33CA88C1DDC096600BA6BBC /* fire.sks */,
 				B3A225FB1DDBE7C60051B537 /* Actions.sks */,
-				B3A225FD1DDBE7C60051B537 /* GameScene.swift */,
-				B3A225FF1DDBE7C60051B537 /* GameViewController.swift */,
-				B3A226011DDBE7C60051B537 /* Main.storyboard */,
-				B3A226041DDBE7C60051B537 /* Assets.xcassets */,
-				B3A226061DDBE7C60051B537 /* LaunchScreen.storyboard */,
+				B37764931DDBE8F6004CC064 /* Assets.xcassets */,
 				B3A226091DDBE7C60051B537 /* Info.plist */,
 			);
 			path = "Emoji Tap";
@@ -134,6 +200,27 @@
 			path = "Emoji TapUITests";
 			sourceTree = "<group>";
 		};
+		B3F1ADB01DDBEA430002DF0F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B37764971DDBE967004CC064 /* Main.storyboard */,
+				B3F1ADA51DDBEA390002DF0F /* TransitionManager.swift */,
+				B37764911DDBE8B1004CC064 /* GameViewController.swift */,
+				B3F1ADA31DDBEA390002DF0F /* SettingsViewController.swift */,
+				B387ABAF1DFE22CC0083FF9A /* MenuViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C763168D445221EA72D9B498 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B54B6E3BCEE2DE3274DCFCF /* Pods-Emoji Tap.debug.xcconfig */,
+				48050786A067BF3A5BD791EF /* Pods-Emoji Tap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3A226221DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji Tap" */;
 			buildPhases = (
+				E1BEF699FA565D357E11153A /* [CP] Check Pods Manifest.lock */,
 				B3A225F01DDBE7C60051B537 /* Sources */,
 				B3A225F11DDBE7C60051B537 /* Frameworks */,
 				B3A225F21DDBE7C60051B537 /* Resources */,
+				A797FE0A396A0F07857FA80E /* [CP] Embed Pods Frameworks */,
+				0E291253E0C7F9B821E15B6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,11 +334,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A226031DDBE7C60051B537 /* Main.storyboard in Resources */,
-				B3A225FA1DDBE7C60051B537 /* GameScene.sks in Resources */,
-				B3A226051DDBE7C60051B537 /* Assets.xcassets in Resources */,
-				B3A226081DDBE7C60051B537 /* LaunchScreen.storyboard in Resources */,
+				B33260D71DDC040A00CB136B /* Podfile in Resources */,
+				B3A225FA1DDBE7C60051B537 /* MenuScene.sks in Resources */,
+				B37764981DDBE967004CC064 /* Main.storyboard in Resources */,
+				B33CA88E1DDC096600BA6BBC /* fire.sks in Resources */,
+				B37764961DDBE95F004CC064 /* LaunchScreen.storyboard in Resources */,
 				B3A225FC1DDBE7C60051B537 /* Actions.sks in Resources */,
+				B33CA88F1DDC096600BA6BBC /* Assets.xcassets in Resources */,
+				B37764941DDBE8F6004CC064 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +361,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E291253E0C7F9B821E15B6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emoji Tap/Pods-Emoji Tap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A797FE0A396A0F07857FA80E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emoji Tap/Pods-Emoji Tap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1BEF699FA565D357E11153A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3A225F01DDBE7C60051B537 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37764901DDBE8A0004CC064 /* AppDelegate.swift in Sources */,
+				B37764921DDBE8B1004CC064 /* GameViewController.swift in Sources */,
+				B3F1ADAC1DDBEA390002DF0F /* TransitionManager.swift in Sources */,
+				B387ABAE1DFDF6A30083FF9A /* WelcomeScene.swift in Sources */,
+				B3F1ADAD1DDBEA390002DF0F /* Extensions.swift in Sources */,
+				B3F1ADA91DDBEA390002DF0F /* Labels.swift in Sources */,
+				B3F1ADAA1DDBEA390002DF0F /* SettingsViewController.swift in Sources */,
+				B387ABB01DFE22CC0083FF9A /* MenuViewController.swift in Sources */,
 				B3A225FE1DDBE7C60051B537 /* GameScene.swift in Sources */,
-				B3A226001DDBE7C60051B537 /* GameViewController.swift in Sources */,
-				B3A225F81DDBE7C60051B537 /* AppDelegate.swift in Sources */,
+				B3A004D71DF9F9D100D53168 /* MenuScene.swift in Sources */,
+				B387ABAC1DFDF63E0083FF9A /* BaseScene.swift in Sources */,
+				B39D120A1DF53700005FE177 /* File.swift in Sources */,
+				B3F1ADAB1DDBEA390002DF0F /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,25 +461,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		B3A226011DDBE7C60051B537 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3A226021DDBE7C60051B537 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B3A226061DDBE7C60051B537 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3A226071DDBE7C60051B537 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		B3A226201DDBE7C60051B537 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -354,6 +486,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -404,6 +537,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -425,6 +559,7 @@
 		};
 		B3A226231DDBE7C60051B537 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B54B6E3BCEE2DE3274DCFCF /* Pods-Emoji Tap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24MA2Z46AJ;
@@ -438,6 +573,7 @@
 		};
 		B3A226241DDBE7C60051B537 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48050786A067BF3A5BD791EF /* Pods-Emoji Tap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 24MA2Z46AJ;
@@ -526,6 +662,7 @@
 				B3A226241DDBE7C60051B537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3A226251DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji TapTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +671,7 @@
 				B3A226271DDBE7C60051B537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3A226281DDBE7C60051B537 /* Build configuration list for PBXNativeTarget "Emoji TapUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +680,7 @@
 				B3A2262A1DDBE7C60051B537 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
